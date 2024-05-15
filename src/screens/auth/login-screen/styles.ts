@@ -25,14 +25,17 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     height: 50,
     backgroundColor: 'white',
-    marginHorizontal: 10,
+    marginHorizontal: 10, // ni
     borderRadius: 10,
     paddingHorizontal: 10,
     marginTop: 10,
     borderColor: '#2096F3',
+    alignItems:'center'
   },
   input: {
     flex: 1,
+    paddingHorizontal:5,
+    color:'black'
   },
   btn: {
     height: 50,

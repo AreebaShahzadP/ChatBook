@@ -30,7 +30,7 @@ const LoginScreen: React.FC = ({navigation}:any) => {
             </View>
             <View style={styles.formContainer}>
               <View style={styles.inputContainer}>
-              <Ionicons name="mail" color="grey" size={20} />
+              <Ionicons name="mail" color="#2096F3" size={20} />
                 <TextInput 
                   placeholder="Email address"
                   placeholderTextColor={'grey'}
@@ -40,6 +40,9 @@ const LoginScreen: React.FC = ({navigation}:any) => {
                 /> 
               </View> 
               <View style={styles.inputContainer}>
+              <Ionicons name="lock-closed" color="#2096F3" size={20} />
+            
+
                 <TextInput
                   placeholder="Password"
                   placeholderTextColor={'grey'}
@@ -63,7 +66,7 @@ const LoginScreen: React.FC = ({navigation}:any) => {
                   justifyContent: 'center',
                   marginTop: 10,
                 }}>
-                <Text style={{fontSize: 16}}>Don't have an Account? </Text>
+                <Text style={{fontSize: 16,color:'black'}}>Don't have an Account? </Text>
                 <TouchableOpacity onPress={() => navigation.navigate('SignUp') }>
                   <Text
                     style={{
