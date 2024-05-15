@@ -21,6 +21,8 @@ const styles = StyleSheet.create({
     // justifyContent: 'center',
   },
   inputContainer: {
+    flexDirection:'row',
+    alignItems:'center',
     borderWidth: 0.5,
     justifyContent: 'center',
     height: 50,
@@ -33,6 +35,8 @@ const styles = StyleSheet.create({
   },
   input: {
     flex: 1,
+    color:'black',
+    paddingHorizontal: 5 
   },
   btn: {
     height: 50,
